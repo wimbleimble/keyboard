@@ -1049,14 +1049,14 @@
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/96308d7d-9a3a-4c11-b089-3d0f8796ddb7"
       (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/e3e327aa-63df-4b63-86af-6b7862b49c8a"
+    (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/56243abd-ccd8-4865-b3df-9eb4ad341d5a"
       (reference "#PWR01") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/56243abd-ccd8-4865-b3df-9eb4ad341d5a"
-      (reference "#PWR02") (unit 1) (value "VCC") (footprint "")
-    )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/486b29a6-f91e-4f0e-96a5-6ba03a9d3206"
-      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/e3e327aa-63df-4b63-86af-6b7862b49c8a"
+      (reference "#PWR03") (unit 1) (value "VCC") (footprint "")
     )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/b565b3c4-2031-49c0-9fd9-34d58f83461a"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
@@ -1067,11 +1067,11 @@
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/d950e181-8f61-43d6-be8a-8ba5b51c71c8"
       (reference "#PWR06") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/20507fab-af26-43c2-8a62-f81da823c792"
-      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
-    )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/b889bece-e57f-4b8a-928e-312653a5a375"
-      (reference "#PWR08") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR07") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/20507fab-af26-43c2-8a62-f81da823c792"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
     )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/25e9dce5-7841-4ba9-b16b-525dd15270cc"
       (reference "#PWR09") (unit 1) (value "GND") (footprint "")
@@ -2522,8 +2522,14 @@
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/78ff85ed-92a8-4518-84ca-93f8467e4876"
       (reference "R9") (unit 1) (value "100k") (footprint "")
     )
+    (path "/68404914-f07d-49b8-86ad-edc4a56f7ad7/6f85c5a3-b658-46f9-86f3-e1840f07b6bb"
+      (reference "R10") (unit 1) (value "470R") (footprint "")
+    )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/11811789-14f1-4828-b4d1-db3f20419ed5"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "")
+    )
+    (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/5bde4a0c-3c83-4764-be5f-8a4ff5c0bab4"
+      (reference "TH1") (unit 1) (value "500mA") (footprint "")
     )
     (path "/57b1376b-a2e4-45e4-82b0-2dd86c464ccc"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "")
@@ -2604,7 +2610,7 @@
       (reference "U1") (unit 1) (value "ATmega32U4-A") (footprint "Package_QFP:TQFP-44_10x10mm_P0.8mm")
     )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/4b9f4bca-b5dd-4bd4-bfad-85e338760894"
-      (reference "X1") (unit 1) (value "XTAL_GND") (footprint "")
+      (reference "X1") (unit 1) (value "16MHz") (footprint "")
     )
   )
 )
