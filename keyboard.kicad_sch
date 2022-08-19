@@ -1591,7 +1591,7 @@
       (reference "J1") (unit 1) (value "ISP Header") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/41e63bab-e9bf-4a11-b1dc-64df69c5cf4b"
-      (reference "J2") (unit 1) (value "USB-C") (footprint "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11")
+      (reference "J2") (unit 1) (value "USB-C") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/68404914-f07d-49b8-86ad-edc4a56f7ad7/f5765fcc-186a-4d58-bba2-596bc1b6828a"
       (reference "J3") (unit 1) (value "LED Extension") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal")
@@ -1879,10 +1879,10 @@
       (reference "R6") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/dec02d83-1dbd-4036-95ae-7dda66341237"
-      (reference "R7") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R7") (unit 1) (value "5k1") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/d44ce2f3-a5d5-4744-9409-526b5fc304ba"
-      (reference "R8") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R8") (unit 1) (value "5k1") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/78ff85ed-92a8-4518-84ca-93f8467e4876"
       (reference "R9") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
