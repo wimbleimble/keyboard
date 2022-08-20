@@ -390,7 +390,6 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "/MCU/UCAP",
           "/MCU/VBUS",
           "GND",
           "VCC"
