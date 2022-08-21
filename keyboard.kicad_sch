@@ -1903,7 +1903,7 @@
       (reference "J1") (unit 1) (value "ISP Header") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/a0ca30a3-9406-4f8a-bc42-d2de44112532/41e63bab-e9bf-4a11-b1dc-64df69c5cf4b"
-      (reference "J2") (unit 1) (value "USB-C") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (reference "J2") (unit 1) (value "USB-C") (footprint "Custom:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/68404914-f07d-49b8-86ad-edc4a56f7ad7/f5765fcc-186a-4d58-bba2-596bc1b6828a"
       (reference "J3") (unit 1) (value "LED Extension") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal")

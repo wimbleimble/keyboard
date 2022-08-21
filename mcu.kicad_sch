@@ -2143,7 +2143,7 @@
     (uuid 41e63bab-e9bf-4a11-b1dc-64df69c5cf4b)
     (property "Reference" "J2" (id 0) (at 71.247 98.2812 0))
     (property "Value" "USB-C" (id 1) (at 71.247 100.8181 0))
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 75.057 119.761 0)
+    (property "Footprint" "Custom:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 75.057 119.761 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 75.057 119.761 0)
