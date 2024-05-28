@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name tmk-sym)(type Legacy)(uri /home/wimbl/documents/kicad/lib/kicad_lib_tmk/keyboard_parts.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/Custom.kicad_sym")(options "")(descr ""))
 )

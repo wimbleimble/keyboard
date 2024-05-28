@@ -1,0 +1,85 @@
+(footprint "SK6803MINI-E_Bottom_Up" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (descr "Part to be placed upside down, will shine through hole underneath component.")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -2.75 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 67f02e5d-7b83-40e6-9b1b-d102d72c4f23)
+  )
+  (fp_text value "SK6803MINI-E_Bottom_Up" (at 0 2.85 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 65b8faa0-5ab3-4356-9e32-bfe21a8893fe)
+  )
+  (fp_line (start -3.85 1.55) (end -2.15 1.55) (layer "F.SilkS") (width 0.1) (tstamp bac50402-a672-473c-80d5-1c88d59313df))
+  (fp_line (start 1.6 1.85) (end -1.6 1.85) (layer "Edge.Cuts") (width 0.1) (tstamp 8e37cf50-b493-406a-be98-2ddd722c74b8))
+  (fp_line (start 1.85 -1.6) (end 1.85 1.6) (layer "Edge.Cuts") (width 0.1) (tstamp a54ece48-4b36-4a93-b1a0-2445a5918174))
+  (fp_line (start -1.85 1.6) (end -1.85 -1.6) (layer "Edge.Cuts") (width 0.1) (tstamp c3735bbe-0097-4105-9c29-3978f6c9061a))
+  (fp_line (start -1.6 -1.85) (end 1.6 -1.85) (layer "Edge.Cuts") (width 0.1) (tstamp e98b7f92-837c-412b-b796-13d108cf3b17))
+  (fp_arc (start -1.85 -1.6) (mid -1.776777 -1.776777) (end -1.6 -1.85) (layer "Edge.Cuts") (width 0.1) (tstamp 02327018-456e-435b-9d9c-e3a9b569e39a))
+  (fp_arc (start 1.85 1.6) (mid 1.776777 1.776777) (end 1.6 1.85) (layer "Edge.Cuts") (width 0.1) (tstamp 9d824b65-5807-40f3-a129-ae247a6628fc))
+  (fp_arc (start 1.6 -1.85) (mid 1.776777 -1.776777) (end 1.85 -1.6) (layer "Edge.Cuts") (width 0.1) (tstamp c55e799f-82bd-41bc-9f9c-1db29a24f97d))
+  (fp_arc (start -1.6 1.85) (mid -1.776777 1.776777) (end -1.85 1.6) (layer "Edge.Cuts") (width 0.1) (tstamp dfa8b4ff-b09b-400e-bb7a-ee5d2bfa062f))
+  (fp_rect (start -4 -2.05) (end 4 2.05) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 006a2d52-7a12-4037-ab13-1d24cc03565f))
+  (fp_line (start 1.6 -1.4) (end 0 -1.4) (layer "F.Fab") (width 0.1) (tstamp 22b9d0a0-d9b8-4e93-af24-4dffaf104fab))
+  (fp_line (start 1.6 -1.4) (end 1.6 0) (layer "F.Fab") (width 0.1) (tstamp 28fb2d5d-ab54-4e01-ad86-75a40754b4b3))
+  (fp_line (start 2.94 -0.41) (end 2.94 -1.09) (layer "F.Fab") (width 0.1) (tstamp 399e3c4d-0314-4d97-a2a8-95ea408bd422))
+  (fp_line (start -2.94 1.09) (end -1.6 1.09) (layer "F.Fab") (width 0.1) (tstamp 4675540a-acbe-4fed-b6c9-6d342ccb87cc))
+  (fp_line (start 1.6 0.41) (end 2.94 0.41) (layer "F.Fab") (width 0.1) (tstamp 50d05e68-bbfb-408e-ae96-50d826feb948))
+  (fp_line (start -2.94 0.41) (end -2.94 1.09) (layer "F.Fab") (width 0.1) (tstamp 54de2734-edb2-40d2-838f-ee563035eb62))
+  (fp_line (start -2.94 -0.41) (end -2.94 -1.09) (layer "F.Fab") (width 0.1) (tstamp 64ac5c10-9c57-48de-8320-4d116a006ac1))
+  (fp_line (start -1.6 -1.09) (end -1.6 -0.41) (layer "F.Fab") (width 0.1) (tstamp 6d0d9ac7-b60b-4f25-9431-30f4d0086e3a))
+  (fp_line (start -1.6 0.41) (end -2.94 0.41) (layer "F.Fab") (width 0.1) (tstamp 77932e3a-96b3-4229-b49a-499f30e78f03))
+  (fp_line (start -1.6 -0.41) (end -2.94 -0.41) (layer "F.Fab") (width 0.1) (tstamp 85dc5933-a3d4-4dfd-b3e8-2377b5cf4c7c))
+  (fp_line (start -1.6 -1.4) (end 0 -1.4) (layer "F.Fab") (width 0.1) (tstamp 87d40222-3ab8-4a6f-a0be-38269be1cd86))
+  (fp_line (start 2.94 1.09) (end 1.6 1.09) (layer "F.Fab") (width 0.1) (tstamp 91513fc8-9e91-4f8f-acb6-07f23a5cd97b))
+  (fp_line (start -1.6 1.09) (end -1.6 0.41) (layer "F.Fab") (width 0.1) (tstamp 93f79186-9706-453a-ad36-56a407118874))
+  (fp_line (start 1.6 1.4) (end 0 1.4) (layer "F.Fab") (width 0.1) (tstamp af4281ce-36ee-4ea7-b4da-01317579e7ad))
+  (fp_line (start -1.6 1.4) (end 0 1.4) (layer "F.Fab") (width 0.1) (tstamp b9a1f2fa-c378-4c25-9d8d-293ee9f29323))
+  (fp_line (start 2.94 0.41) (end 2.94 1.09) (layer "F.Fab") (width 0.1) (tstamp d3c20821-dffe-4c13-bb34-47f470f40691))
+  (fp_line (start 1.6 1.4) (end 1.6 0) (layer "F.Fab") (width 0.1) (tstamp e0d47c5a-ef09-4be5-b79c-e02c3c7b1b73))
+  (fp_line (start 1.6 -0.41) (end 2.94 -0.41) (layer "F.Fab") (width 0.1) (tstamp e2f9edac-426d-4264-b748-2f14cc5f724e))
+  (fp_line (start -1.6 1.4) (end -1.6 0) (layer "F.Fab") (width 0.1) (tstamp e6cf9702-157e-4a54-8b8c-a959860da367))
+  (fp_line (start 2.94 -1.09) (end 1.6 -1.09) (layer "F.Fab") (width 0.1) (tstamp ed094f41-288e-4dac-9ec9-a1bf11103d89))
+  (fp_line (start 1.6 1.09) (end 1.6 0.41) (layer "F.Fab") (width 0.1) (tstamp ed6497d4-03d2-4b4d-9f89-ffa471a01d1e))
+  (fp_line (start -2.94 -1.09) (end -1.6 -1.09) (layer "F.Fab") (width 0.1) (tstamp f0c59e57-b1aa-4f7a-8edf-c5059b36810b))
+  (fp_line (start 1.6 -1.09) (end 1.6 -0.41) (layer "F.Fab") (width 0.1) (tstamp face6fe2-4eb2-48cd-a9bb-44da8b907ae8))
+  (fp_line (start -1.6 -1.4) (end -1.6 0) (layer "F.Fab") (width 0.1) (tstamp faf91040-544d-4963-9520-4b42761210d0))
+  (pad "1" smd roundrect (at -3 0.75) (size 1.8 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp c87ad820-8971-4b97-aa65-c3168f25d463))
+  (pad "2" smd roundrect (at -3 -0.75) (size 1.8 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 7370ffac-861c-4a53-97e1-3cb840216a6c))
+  (pad "3" smd roundrect (at 3 -0.75) (size 1.8 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 880736bc-e858-4e20-b36d-d5f945f5bda1))
+  (pad "4" smd roundrect (at 3 0.75) (size 1.8 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp e637d10a-e45f-4425-bbc7-30e38f943b42))
+  (group "" (id 697b458c-7e8f-4241-bb87-d8f12bedb2ea)
+    (members
+      22b9d0a0-d9b8-4e93-af24-4dffaf104fab
+      28fb2d5d-ab54-4e01-ad86-75a40754b4b3
+      399e3c4d-0314-4d97-a2a8-95ea408bd422
+      4675540a-acbe-4fed-b6c9-6d342ccb87cc
+      50d05e68-bbfb-408e-ae96-50d826feb948
+      54de2734-edb2-40d2-838f-ee563035eb62
+      64ac5c10-9c57-48de-8320-4d116a006ac1
+      6d0d9ac7-b60b-4f25-9431-30f4d0086e3a
+      77932e3a-96b3-4229-b49a-499f30e78f03
+      85dc5933-a3d4-4dfd-b3e8-2377b5cf4c7c
+      87d40222-3ab8-4a6f-a0be-38269be1cd86
+      91513fc8-9e91-4f8f-acb6-07f23a5cd97b
+      93f79186-9706-453a-ad36-56a407118874
+      af4281ce-36ee-4ea7-b4da-01317579e7ad
+      b9a1f2fa-c378-4c25-9d8d-293ee9f29323
+      d3c20821-dffe-4c13-bb34-47f470f40691
+      e0d47c5a-ef09-4be5-b79c-e02c3c7b1b73
+      e2f9edac-426d-4264-b748-2f14cc5f724e
+      e6cf9702-157e-4a54-8b8c-a959860da367
+      ed094f41-288e-4dac-9ec9-a1bf11103d89
+      ed6497d4-03d2-4b4d-9f89-ffa471a01d1e
+      f0c59e57-b1aa-4f7a-8edf-c5059b36810b
+      face6fe2-4eb2-48cd-a9bb-44da8b907ae8
+      faf91040-544d-4963-9520-4b42761210d0
+    )
+  )
+  (model "/home/wimbl/documents/kicad/lib/sk6812mini-e-1.snapshot.3/LED_SK6812MINI-E.step"
+    (offset (xyz 0 5.08 -1.75))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+)
